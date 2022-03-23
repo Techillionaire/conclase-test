@@ -7,7 +7,7 @@ import Partners from './Partners'
 import PopularCategory from './PopularCategory'
 import Recommended from './Recommended'
 import Testimonials from './Testimonials'
-import Footer from './Footer'
+// import Footer from './Footer'
 
 const LandingPage = () => {
   return (
@@ -20,7 +20,7 @@ const LandingPage = () => {
         <Partners />
         <Testimonials />
         {/* <GetStarted /> */}
-        <Footer />
+        {/* <Footer /> */}
     </div>
   )
 }
