@@ -17,6 +17,27 @@
     align-items: center;
     justify-content: flex-end;
     padding-right: 100px;
+    background-image: url('../src/assets/gs.svg');
+    padding: 100px 50px;
+    object-fit: cover;
+}
+
+.getStartedHeader{
+    color: white;
+    font-size: 48px;
+}
+
+.getStartedButton{
+    border-radius: 50px;
+    background-color: #06942A;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+
+.getStartedCreate{
+    color: #fff;
+    font-size: 16px;
 }
 
 button{
