@@ -1,0 +1,23 @@
+.getStarted{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgContainer{
+    border-radius: 30px;
+    background-color: antiquewhite;
+    height: 396px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 150px;
+}
+
+.content{
+    
+
+}

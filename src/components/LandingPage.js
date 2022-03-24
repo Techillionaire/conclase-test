@@ -1,5 +1,5 @@
 import React from 'react'
-// import GetStarted from './GetStarted'
+import GetStarted from './GetStarted'
 import Hero from './Hero'
 import HowItWorks from './HowItWorks'
 import Nav from './Nav'
@@ -7,7 +7,7 @@ import Partners from './Partners'
 import PopularCategory from './PopularCategory'
 import Recommended from './Recommended'
 import Testimonials from './Testimonials'
-// import Footer from './Footer'
+import Footer from './Footer'
 
 const LandingPage = () => {
   return (
@@ -19,8 +19,8 @@ const LandingPage = () => {
         <PopularCategory />
         <Partners />
         <Testimonials />
-        {/* <GetStarted /> */}
-        {/* <Footer /> */}
+        <GetStarted />
+        <Footer />
     </div>
   )
 }
