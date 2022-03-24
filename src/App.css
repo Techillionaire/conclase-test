@@ -223,3 +223,15 @@ button{
     margin-left: 10px;
     font-weight: bold;
 }
+
+.testimonialImgContainer{
+    margin-top: 20px;
+}
+
+.colon{
+    color: #06942A;
+    font-size: 100px;
+}
+.testimonialRight{
+    padding: 40px;
+}
