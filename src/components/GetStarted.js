@@ -1,4 +1,5 @@
 import React from 'react'
+// import mask from '../../src/assets/Mask Group.svg'
 
 const GetStarted = () => {
   return (

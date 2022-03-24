@@ -17,31 +17,31 @@ const Nav = () => {
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <Link className="nav-link" to="/">
-              Link
+              Companies
+            </Link>
+          </li>
+
+          <li class="nav-item">
+            <Link className="nav-link" to="/">
+              Candidates
             </Link>
           </li>
 
           <li class="nav-item">
             <Link className="nav-link" to="/assessment">
-              Link
+              Assessment
             </Link>
           </li>
 
           <li class="nav-item">
             <Link className="nav-link" to="/">
-              Link
+              Post a Job
             </Link>
           </li>
 
           <li class="nav-item">
             <Link className="nav-link" to="/">
-              Link
-            </Link>
-          </li>
-
-          <li class="nav-item">
-            <Link className="nav-link" to="/">
-              Link
+              Career Advice
             </Link>
           </li>
 
@@ -49,9 +49,9 @@ const Nav = () => {
           
           
         </ul>
-        <form class="d-flex ml-2">
-          <button class="btn" type="submit">Sign up</button>
-          <button class="btn btn-outline-success " type="submit">Login</button>
+        <form className="d-flex navButtons">
+          <button className="signupbtn btn" type="submit ">Sign up</button>
+          <button className="loginbtn px-4" type="submit ">Login</button>
         </form>
       </div>
     </div>

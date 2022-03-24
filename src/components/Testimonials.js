@@ -5,8 +5,9 @@ import test from '../../src/assets/testimonial.svg'
 
 const Testimonials = () => {
   return (
-    <div className='testimonials'>
-        <h2>What are our customers saying</h2>
+    <div className='testimonials my-5'>
+        <h2 className='fs-2 fw-bold'>What are our customers </h2>
+        <h2 className='fs-2 fw-bold mb-2'>saying</h2>
         <div className='row'>
             <div className='col-3'>
                 <img src={test} alt='' />
