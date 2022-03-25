@@ -15,17 +15,18 @@ const Todo = () => {
         const responseTodo = res.data;
         setTodoDetails(responseTodo);
       });
-  }, []);
+  }, );
 
   const { id: todoId, userId, title, completed } = todoDetails || {};
   return (
     <div>
+      
       {todoDetails ? (
         <div>
-          <h1> {`Todo id: ${todoId}`} </h1>
-          <h1> {`Todo userId: ${userId}`} </h1>
-          <h1> {`Todo title: ${title}`} </h1>
-          <h1> {`Todo completed: ${completed}`} </h1>
+          <p> {`Todo id: ${todoId}`} </p>
+          <h3> {`Todo userId: ${userId}`} </h3>
+          <h2> {`Todo title: ${title}`} </h2>
+          <p> {`Todo completed: ${completed}`} </p>
         </div>
       ) : (
         <CircularProgress />

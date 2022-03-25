@@ -10,7 +10,7 @@ import Todo from './components/Todo';
 
 function App() {
   return (
-    
+
     <BrowserRouter>
       <Routes>
             <Route path="/" element={<LandingPage />} />
@@ -19,6 +19,8 @@ function App() {
             </Route>
         </Routes>
     </BrowserRouter>
+    
+    
       
    
     );

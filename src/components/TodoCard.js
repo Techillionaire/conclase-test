@@ -11,13 +11,18 @@ const TodoCard = (props) => {
       style={{
         backgroundColor: "grey",
         margin: "10px",
-        padding: "15px",
-        width: "150px"
+        padding: "5px",
+        width: "100%",
+        height: '80px',
+        borderRadius: '5px',
+        color: '#f8f8f8'
+
       }}
-      onClick={() => navigate.push(`/todo/${id}`)}
+      onClick={() => navigate.push(`/assessment/${id}`)}
     >
-      <h4> {title} </h4>
-      <h6> {`Completed: ${completed}`} </h6>
+      
+      <h5> {title} </h5>
+      <p> {`Completed: ${completed}`} </p>
     </div>
   );
 };

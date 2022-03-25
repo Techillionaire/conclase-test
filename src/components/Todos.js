@@ -15,17 +15,17 @@ const Todos = () => {
 
   console.log(todos);
   return (
-    <>
+    <div className='todoComponent'>
       {todos ? (
-        <div style={{ display: "flex", flexWrap: "wrap" }}>
-          {todos.slice(0, 10).map((todo) => (
+        <div className='todoForm'>
+          {todos.slice(0, 200).map((todo) => (
             <TodoCard key={todo.id} todo={todo} />
           ))}
         </div>
       ) : (
         <CircularProgress />
       )}
-    </>
+    </div>
   );
 };
 

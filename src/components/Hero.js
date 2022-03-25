@@ -33,7 +33,7 @@ const Hero = () => {
 
           </div>
         </div>
-        <div className='col'>
+        <div className='col colright'>
           <img src={heroImg} alt='' style={{ height: '90vh'}}/>
  
         </div>

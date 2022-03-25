@@ -12,49 +12,54 @@ const Footer = () => {
         <hr />
         <div className='row p-3'>
             <div className='col-3'>
-                <img src={logo} alt='' />
+                <Link to='/' >
+                    <img src={logo} alt='' />
+                </Link>
+                
                 <p className='mr-4'>Getajob.ng provides a full online service for anyone looking for a new job. We're not a recruitment agency, we're a job site.</p>
 
             </div>
             <div className='col-2'>
                 <h5>Information</h5>
                 <ul className='list-unstyled'>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Terms & Condition</li>
+                    <li><Link className='footerLink' to='/'>About Us</Link></li>
+                    <li><Link className='footerLink' to='/'>Contact Us</Link></li>
+                    <li><Link className='footerLink' to='/'>Terms & Condition</Link></li>
                 </ul>
                 
             </div>
             <div className='col-2'>
                 <h5>Job Seekers</h5>
                 <ul className='list-unstyled'>
-                    <li>Create Account</li>
-                    <li>Job List</li>
-                    <li>FAQ</li>
+                    <li><Link className='footerLink' to='/'>Create Account</Link></li>
+                    <li><Link className='footerLink' to='/'>Job List</Link></li>
+                    <li><Link className='footerLink' to='/'>FAQ</Link></li>
                 </ul>
                 
             </div>
             <div className='col-2'>
                 <h5>Employers</h5>
                 <ul className='list-unstyled'>
-                    <li>Create Account</li>
-                    <li>Post a Job</li>
-                    <li>FAQ</li>
+                <ul className='list-unstyled'>
+                    <li><Link className='footerLink' to='/'>Create Account</Link></li>
+                    <li><Link className='footerLink' to='/'>Post a Job</Link></li>
+                    <li><Link className='footerLink' to='/'>FAQ</Link></li>
+                </ul>
                 </ul>
                 
             </div>
             <div className='col-3'>
                 <h5 className='mb-3'>Social Media</h5>
-                <Link to='#'>
+                <Link to='/'>
                     <img className='mx-1' src={Instagram} alt='' />
                 </Link>
-                <Link to='#'>
+                <Link to='/'>
                     <img className='mx-1' src={Twitter} alt='' />
                 </Link>
-                <Link to='#'>
+                <Link to='/'>
                     <img className='mx-1' src={Facebook} alt='' />
                 </Link>
-                <Link to='#'>
+                <Link to='/'>
                     <img className='mx-1' src={LinkedIn} alt='' />
                 </Link>
             </div>

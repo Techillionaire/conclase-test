@@ -11,8 +11,10 @@ import Footer from './Footer'
 
 const LandingPage = () => {
   return (
-    <div className='container'>
-        <Nav />
+    <div className='container-fluid'>
+      <Nav />
+      <div className='container'>
+        
         <Hero />
         <Recommended />
         <HowItWorks />
@@ -22,6 +24,9 @@ const LandingPage = () => {
         <GetStarted />
         <Footer />
     </div>
+
+    </div>
+    
   )
 }
 

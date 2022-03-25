@@ -7,6 +7,7 @@ import DAM from '../../src/assets/DAM.svg'
 import TECH from '../../src/assets/Laptop.svg'
 import SEC from '../../src/assets/Security icon.svg'
 import DA from '../../src/assets/Data Analyst Icon.svg'
+import { Link } from 'react-router-dom'
 
 const PopularCategory = () => {
   return (
@@ -17,10 +18,10 @@ const PopularCategory = () => {
         <div className='col-3'>
             <div className='card popularcard'>
               <div className='popularCategoryCard'>
-                <img src={OAG} alt='' />
+                <img src={OAG} alt='' className='popularImg'/>
 
                 <p className='popularPP text-center'>Oil and Gas</p>
-                <p className='popularP'>(20 new jobs)</p>
+                <Link to='/' className='popularP'>(20 new jobs)</Link>
 
               </div>
               
@@ -30,10 +31,10 @@ const PopularCategory = () => {
           <div className='col-3'>
           <div className='card popularcard'>
             <div className='popularCategoryCard'>
-              <img src={HC} alt='' />
+              <img src={HC} alt='' className='popularImg'/>
 
               <p className='popularPP text-center'>Healthcare</p>
-              <p className='popularP'>(20 new jobs)</p>
+              <Link to='/' className='popularP'>(20 new jobs)</Link>
 
             </div>
             
@@ -43,10 +44,10 @@ const PopularCategory = () => {
         <div className='col-3'>
           <div className='card popularcard'>
             <div className='popularCategoryCard'>
-              <img src={EDU} alt='' />
+              <img src={EDU} alt='' className='popularImg'/>
 
               <p className='popularPP text-center'>Education</p>
-              <p className='popularP'>(20 new jobs)</p>
+              <Link to='/' className='popularP'>(20 new jobs)</Link>
 
             </div>
             
@@ -56,10 +57,10 @@ const PopularCategory = () => {
         <div className='col-3'>
           <div className='card popularcard'>
             <div className='popularCategoryCard'>
-              <img src={ACC} alt='' />
+              <img src={ACC} alt='' className='popularImg'/>
 
               <p className='popularPP text-center'>Accounting</p>
-              <p className='popularP'>(20 new jobs)</p>
+              <Link to='/' className='popularP'>(20 new jobs)</Link>
 
             </div>
             
@@ -75,10 +76,10 @@ const PopularCategory = () => {
         <div className='col-3'>
           <div className='card popularcard'>
             <div className='popularCategoryCard'>
-              <img src={DAM} alt='' />
+              <img src={DAM} alt='' className='popularImg'/>
 
               <p className='popularPP text-center'>Design</p>
-              <p className='popularP'>(20 new jobs)</p>
+              <Link to='/' className='popularP'>(20 new jobs)</Link>
 
             </div>
             
@@ -88,10 +89,10 @@ const PopularCategory = () => {
         <div className='col-3'>
           <div className='card popularcard'>
             <div className='popularCategoryCard'>
-              <img src={TECH} alt='' />
+              <img src={TECH} alt='' className='popularImg'/>
 
               <p className='popularPP text-center'>Technology</p>
-              <p className='popularP'>(20 new jobs)</p>
+              <Link to='/' className='popularP'>(20 new jobs)</Link>
 
             </div>
             
@@ -101,10 +102,10 @@ const PopularCategory = () => {
         <div className='col-3'>
           <div className='card popularcard'>
             <div className='popularCategoryCard'>
-              <img src={SEC} alt='' />
+              <img src={SEC} alt='' className='popularImg'/>
 
               <p className='popularPP text-center'>Security</p>
-              <p className='popularP'>(20 new jobs)</p>
+              <Link to='/' className='popularP'>(20 new jobs)</Link>
 
             </div>
             
@@ -114,10 +115,10 @@ const PopularCategory = () => {
         <div className='col-3'>
           <div className='card popularcard'>
             <div className='popularCategoryCard'>
-              <img src={DA} alt='' />
+              <img src={DA} alt='' className='popularImg'/>
 
               <p className='popularPP text-center'>Data Analyst</p>
-              <p className='popularP'>(20 new jobs)</p>
+              <Link to='/' className='popularP'>(20 new jobs)</Link>
 
             </div>
             

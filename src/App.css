@@ -27,6 +27,12 @@
     font-size: 48px;
 }
 
+.rollercoaster{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .getStartedButton{
     border-radius: 50px;
     background-color: #06942A;
@@ -195,18 +201,33 @@ button{
     height: 270px;
 }
 
+
+
+.popularCategoryCard{
+    align-items: center;
+    justify-content: center;
+}
+
 .popularP{
     font-style: normal;
     font-size: 14px;
     color: #9B9B9B;
-    margin-top: -10px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .popularPP{
     font-style: normal;
-    font-size: 21px;
+    font-size: 19px;
+    font-weight: bold;
     color: #3F403F;
     text-align: center;
+}
+
+.popularImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .partner{
@@ -256,3 +277,40 @@ button{
 .testimonialRight{
     padding: 40px;
 }
+
+.footerLink{
+    text-decoration: none;
+    color: gray;
+}
+
+.leftArrow{
+    color:#b4b1b1;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-right: 5px;
+}
+
+.rightArrow{
+    color:#06942A;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.todoComponent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+/* .todoForm{
+    width: 500px;
+    height: 600px;
+    background-color: #9B9B9B;
+    border: 1px solid #3F403F;
+    border-radius: 10px;
+} */
+
+
+

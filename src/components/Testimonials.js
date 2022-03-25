@@ -18,8 +18,8 @@ const Testimonials = () => {
             <div className='col-9 '>
                 <div className='testimonialRight'>
                     <div className='arrows'>
-                        <i><HiArrowNarrowLeft /></i>
-                        <i><HiArrowNarrowRight /></i>
+                        <i className='leftArrow'><HiArrowNarrowLeft /></i>
+                        <i className='rightArrow'><HiArrowNarrowRight /></i>
                     </div>
 
                     <p className='fs-5'>The platform is really convenient to reach out to companies
@@ -28,7 +28,7 @@ const Testimonials = () => {
                         wondering whether the company has seen or shortlisted me.
                         </p>
                     <h4>Irma Black</h4>
-                    <h4 className='text-muted'>HR Manager at MasterCard</h4>
+                    <h5 className='text-muted'>HR Manager at MasterCard</h5>
                 </div>
                 {/* <p className='colon'>"</p> */}
                 
